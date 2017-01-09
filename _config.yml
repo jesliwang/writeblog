@@ -111,6 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _unity3d
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -169,6 +170,10 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+collections:
+  unity3d:
+    output: true
+    permalink: /:collection/:path/
 
 # Outputting
 permalink: /:categories/:title/
@@ -232,6 +237,14 @@ compress_html:
 
 # Defaults
 defaults:
+  # _unity3d
+  - scrop:
+      path: ""
+      type: unity3d
+    values:
+      layout: single
+      author_profile: true
+      share: true
   # _posts
   - scope:
       path: ""
