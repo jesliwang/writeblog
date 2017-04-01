@@ -1,4 +1,5 @@
 ---
+layout: single
 categories: unity3d
 ---
 多谢[Unity实现残影特效](http://blog.csdn.net/langresser_king/article/details/50976029)这篇博文，让我发现了unity3d居然提供了Graphics.DrawMesh这样强大的功能。基于Graphics.DrawMesh，完成了残影效果

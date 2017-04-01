@@ -70,18 +70,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-90040915-1
 
 
 # Site Author
 author:
   name             : "王剑虹"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "我不仅仅是一个Unity3d游戏开发者，学习各种知识以期独立开发游戏才是我的终极目的"
   location         : "深圳"
-  email            :
+  email            : "smileking67@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "jesliwang"
   google_plus      :
   keybase          :
   instagram        :
@@ -216,7 +216,7 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
+#jekyll-archives:
 #   enabled:
 #     - categories
 #     - tags
@@ -263,3 +263,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: false
