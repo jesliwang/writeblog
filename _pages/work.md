@@ -1,5 +1,5 @@
 ---
-  layout: single
-  permalink: /work/
-  title: Work
+layout: single
+permalink: /work/
+title: Work
 ---

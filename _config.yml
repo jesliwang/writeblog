@@ -11,7 +11,8 @@ title                    : "静心思考"
 title_separator          : "-"
 name                     : "王剑虹"
 description              : "记录自己的学习"
-url                      : "http://jianhong.tech" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#url                      : "http://localhost:3000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://jianhong.tech"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -78,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "王剑虹"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/icon.jpg"
   bio              : "我不仅仅是一个Unity3d游戏开发者，学习各种知识以期独立开发游戏才是我的终极目的"
   location         : "深圳"
   email            : "smileking67@gmail.com"
@@ -94,7 +95,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "jianhong-wang-1278b751"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
